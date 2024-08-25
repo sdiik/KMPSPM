@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "KMPSPM",
+    name: "KmpSpm",
     platforms: [.iOS(.v13), .macOS(.v10_15)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "KMPSPM",
-            targets: ["KMPSPM"]),
+            name: "KmpSpm",
+            targets: ["KmpSpm"]),
     ],
     dependencies: [
     ],
@@ -18,8 +18,8 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
-            name: "KMPSPM",
-            path: "./KMPSPM.xcframework"
+            name: "KmpSpm",
+            path: "./KmpSpm.xcframework"
         ),
     ]
     ]

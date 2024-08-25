@@ -1,20 +1,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "KmpSpm",
+    name: "KMPSPM",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "KmpSpm",
-            targets: ["KmpSpm"]
+            name: "KMPSPM",
+            targets: ["KMPSPM"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "KmpSpm",
-            path: "./KmpSpm.xcframework"
+            name: "KMPSPM",
+            path: "./KMPSPM.xcframework"
         ),
     ]
 )

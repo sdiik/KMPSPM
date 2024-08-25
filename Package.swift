@@ -22,5 +22,4 @@ let package = Package(
             path: "./KmpSpm.xcframework"
         ),
     ]
-    ]
 )
